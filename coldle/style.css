@@ -1,0 +1,87 @@
+* {
+  font-family: 'Roboto', sans-serif;
+}
+#game-board {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .letter-box {
+    border: 2px solid gray;
+    border-radius: 3px;
+    margin: 2px;
+    font-size: 2.5rem;
+    font-weight: 700;
+    height: 3rem;
+    width: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+  }
+  
+  .filled-box {
+    border: 2px solid black;
+  }
+  
+  h1{
+    text-align: center;
+  }
+
+  .letter-row {
+    display: flex;
+  }
+
+  #keyboard-cont {
+    margin: 1rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #keyboard-cont div {
+    display: flex;
+  }
+
+  #btnPlayAgain {
+    display: none;
+    width: 200px;
+    height: 25px;
+    background-color: greenyellow;
+    color: black;
+    padding: 5px;
+    text-align: center;
+    border: solid 1px black;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 10px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .second-row {
+    margin: 0.5rem 0;
+  }
+  
+  .keyboard-button {
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 0.5rem;
+    margin: 0 2px;
+    cursor: pointer;
+    text-transform: uppercase;
+  }
+
+  #topscores{
+    padding: 10px;
+    background-color: #efefef;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid 1px #666;
+    border-radius: 12px;
+    height: 100px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+  }
