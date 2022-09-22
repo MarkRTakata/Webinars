@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<breeze-manifest version="1.0" xmlns="http://breeze.macromedia.com/ns/breeze-manifest" generator="ZB">
+	<document type="custom-pod" id="com.adobe.connect.sidebar" version="1.0.001"  minimumSDKversion="11.0.0" minimumConnectServerVersion="11.2.0"/>
+	<assets>
+		<asset type="document-view">
+			<entry href="sidebar.htm" href-html5="sidebar.htm" />
+			<file href="sidebar.htm"/>
+			<file href="sessions.json"/>
+			<file href="css/"/>
+			<file href="css/styles.css"/>
+			<file href="js/"/>
+			<file href="js/logic.js"/>
+			<file href="img/"/>
+			<file href="img/sidebar-header.svg"/>
+		</asset>
+	</assets>
+</breeze-manifest>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <script src="js/jquery-3.6.0.slim.min.js"></script>
+    <script src="https://unpkg.com/htmx.org@1.8.0"></script>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Resources</title>
+  </head>
+  <body>
+    <header>
+      <div class="logotype">
+        <img src="img/logo.PNG" alt="Dev Week Logo" />
+      </div>
+    </header>
+    <main>
+      <div hx-get="*****ADD YOUR ENDPOINT HERE******" hx-trigger="every 5s" id="sections"></div>
+    </main>
+    <div class="logos">
+      <img id="acLogo" src="img/adobelogo.PNG" alt="Adobe logo" />
+      <img id="cpLogo" src="img/cflogo.png" alt="ColdFusion logo" />
+    </div>
+  </body>
+</html>

@@ -1,0 +1,109 @@
+:root {
+  --color-primary: #000940;
+  --color-secondary: #2c2086;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background: linear-gradient(
+    124deg,
+    var(--color-primary) 20%,
+    var(--color-secondary) 100%
+  );
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: adobe-clean, sans-serif;
+  font-weight: 400;
+  color: white;
+  min-height: 100%;
+}
+
+.logotype img {
+  display: block;
+  width: 85%;
+  max-width: 350px;
+  text-align: center;
+  margin: auto;
+  margin-top: 1rem;
+  border-radius: 10px;
+  border: solid 1px #666;
+}
+
+.divider {
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 5px;
+  border-bottom: 1px dotted white;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.divider .section_name {
+  padding-left: 1rem;
+}
+
+.session-info {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  font-size: 1rem;
+  font-weight: normal;
+  margin-bottom: 8px;
+}
+
+.session-info .time {
+  justify-self: end;
+  padding: 2px 5px 2px 2px;
+}
+
+.session-info .session-title  {
+  justify-self: start;
+  padding: 2px 2px 2px 8px;
+}
+
+.session-speakers {
+  justify-self: start;
+  padding: 0px 2px 2px 8px;
+  color: pink;
+}
+
+.session-info:hover {
+  background-color: var(--color-primary);
+  cursor: pointer;
+}
+
+.logos {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+  margin-inline: auto;
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+  width: 80%;
+}
+
+.logos img {
+  cursor: pointer;
+  width: 50px;
+  margin-inline: 1rem;
+}
+
+.section_collapse {
+  display: inline-block;  
+  margin-left: calc(100% - 20px);
+}
+
+.section_collapse_button {
+  width: 20px;
+  height: 20px;
+  color: white;
+  background-color: black;
+  top: -20px;
+  position: relative;
+}
